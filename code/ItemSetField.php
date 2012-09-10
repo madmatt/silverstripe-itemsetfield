@@ -191,7 +191,7 @@ abstract class ItemSetField extends FormField {
 		return $set;
 	}
 
-	function FieldHolder() {
+	function FieldHolder($properties = array()) {
 		Requirements::add_i18n_javascript('itemsetfield/javascript/lang');
 
 		$templates = array();
